@@ -1,3 +1,44 @@
 <resources>
     <string name="app_name">AmazonQDeveloperInGitHubDemo</string>
+    
+    <!-- Search -->
+    <string name="search_hint">Search repositories</string>
+    <string name="search_button">Search</string>
+    
+    <!-- Sorting -->
+    <string name="sort_by">Sort by:</string>
+    <string name="order">Order:</string>
+    
+    <!-- Sort options -->
+    <string-array name="sort_options">
+        <item>Best match</item>
+        <item>Stars</item>
+        <item>Forks</item>
+        <item>Updated</item>
+    </string-array>
+    
+    <!-- Sort values (for API) -->
+    <string-array name="sort_values">
+        <item></item> <!-- Empty for best match -->
+        <item>stars</item>
+        <item>forks</item>
+        <item>updated</item>
+    </string-array>
+    
+    <!-- Order options -->
+    <string-array name="order_options">
+        <item>Descending</item>
+        <item>Ascending</item>
+    </string-array>
+    
+    <!-- Order values (for API) -->
+    <string-array name="order_values">
+        <item>desc</item>
+        <item>asc</item>
+    </string-array>
+    
+    <!-- Error messages -->
+    <string name="error_generic">An error occurred</string>
+    <string name="retry">Retry</string>
+    <string name="no_results">No repositories found</string>
 </resources>
